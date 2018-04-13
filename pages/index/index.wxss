@@ -1,0 +1,171 @@
+/**index.wxss**/
+.homebt{
+  width: 100vw;
+  height: 36vh;
+  z-index: -1;
+  margin-bottom: 80px;
+}
+
+/* 个人信息 */
+.userd{
+  width: 90vw;
+  height: 90px;
+  background-color: #fff;
+  box-shadow: 1px 2px 10px #d2d2d2;
+  margin-left: 5vw;
+  border-radius:5px; 
+  position: absolute;
+    top: 160px;
+  padding-top: 20px;
+  display: flex;
+  /* justify-content: center;   */
+}
+
+.usertx{
+  margin-left: 26px;
+  width: 60px;
+  height: 60px;
+  background-color: #d2d2d2;
+  border-radius: 60px;
+  box-shadow: -3px 3px 10px #d2d2d2;
+}
+
+.usrd{
+  margin-left: 10px;
+  width: 70vw;
+}
+.usbti{
+  display: flex;
+}
+.usbt{
+  font-size: 16px;
+  color: #000;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+.xuexico{
+  width: 9px;
+  height: 9px;
+}
+.usbtico{
+  margin-left: 3px;
+  background-color: #f7f9fa;
+  color: #30b767;
+  font-size: 10px;
+  line-height: 15px;
+  height: 15px;
+  padding: 0 5px;
+  border-radius: 10px;
+}
+
+.usnr{
+  position: relative;
+    top: -5px;
+  letter-spacing: 2px;
+  color: #a0a0a0;
+  font-size: 12px;
+  font-weight: 600;
+}
+.usbom{
+  position: relative;
+    top: -5px;
+  display: flex;
+  justify-content: space-between;
+}
+.bubomt{
+  display: block;
+  font-size: 11px;
+  color: #535353;
+  line-height: 15px;
+  letter-spacing: 1px;
+}
+
+/* 课程类目 */
+.kc{
+  width: 90vw;
+  margin-left: 5vw;
+  background-color: #fff;
+  position: relative;
+  margin-bottom: 10px;
+}
+.kcbt{
+  font-size: 13px;
+  font-weight: 900;
+  color: #000;
+  letter-spacing: 1px;
+  margin-left: 5px;
+  position: relative;
+    top: -3px;
+}
+
+.lsbt{
+  width: 6px;
+  height: 17px;
+}
+.kcjj{
+  position: absolute;
+    top: 30px;
+    left: 15px;
+
+}
+
+.jjt1{
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.jjt2{
+  font-size: 11px;
+  line-height: 18px;
+  background-color: #fff;
+  color: #30b767;
+  font-weight: 500;
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.kcimg{
+  width: 90vw;
+  height: 40vw;
+}
+
+
+
+
+.bubbtn{
+  font-size: 11px;
+  color: #30b767;
+  border:1px solid #30b767; 
+  border-radius:10px;
+  height: 18px; 
+  padding: 0 5px;
+  margin-bottom: 5px;
+  margin-right: 15px;
+  line-height: 18px;
+}
+
+
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

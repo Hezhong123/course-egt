@@ -1,0 +1,72 @@
+<!--pages/courseli/courseli.wxml-->
+<view>
+  <!-- 课程标题 -->
+  <view class='bttop'>
+    <text class='btt1'>{{courseli.EnglishBt}}</text>
+    <view class='bttn'>
+      <text class='btt2'>{{courseli.courseClass+courseli.course}}</text>
+      <text class='btt3' >{{courseli.chapter.length}}章节</text>  
+    </view>
+  </view>
+
+  <!-- 课程介绍 -->
+  <view class='bt'>
+    <view class='bttitle' >
+      <image class='lsbt' mode='scaleToFill' src='../../img/ico1.png'></image>
+      <text class='kcbt'>课程介绍</text>
+      <view class='btts kcbt1'>
+        {{courseli.courseData}}    
+      </view>
+    </view>
+  </view>
+
+  <!-- 交流 -->
+  <view class='cojs'>
+    <view class='cttt'>
+      <text class='btts'>
+      课程学习中遇到问题／难点
+      进群咨询交流
+      </text>
+      <view class='cobtn'>
+        课后讨论
+      </view>
+    </view>
+    
+  </view>
+
+  <!-- 老师介绍 -->
+  <view class='bt'>
+      <view>
+        <image class='lsbt' mode='scaleToFill' src='../../img/ico1.png'></image>
+        <text class='kcbt'>老师介绍</text>
+      </view>
+      <view class='jsnr'>
+          <view class='coutx'>
+            <image class='texttx' mode='scaleToFill' src='{{teacher.imgTx}}'></image>
+            <text class='couname'>{{teacher.name}}</text>
+          </view>
+          <view>
+            <view class='btts1'>老师简介:</view>
+            <view class='btts kcbt1'>
+              {{teacher.data}}    
+            </view>
+          </view>
+      </view>
+  </view>
+
+  <!-- 章节 -->
+  <view class='bt'>
+    <view class='cobt'>
+      <image class='lsbt' mode='scaleToFill' src='../../img/ico1.png'></image>
+      <text class='kcbt'>章节</text>
+    </view>
+    <view class="{{courseul[index].zt=='未更新'?'coli1':'coli'}}" wx:for="{{courseul}}"
+      wx:key="oncourse1"
+      bindtap='oncourse'
+      data-obj='{{courseul[index]}}'
+    >
+      <text class="{{courseul[index].zt=='未更新'?'colo3':'colo1'}}">第{{courseul[index].li}}章 {{courseul[index].courseNode}}</text>
+      <text  class="{{courseul[index].zt=='未更新'?'colo3':'colo2'}}">{{courseul[index].zt}}           </text>
+    </view> 
+  </view>
+</view>

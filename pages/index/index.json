@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "getuser": "../temp/getuse/getuse"
+  },
+  "enablePullDownRefresh":true,
+  "backgroundTextStyle":"dark",
+  "backgroundColor":"#fff"
+}

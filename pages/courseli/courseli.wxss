@@ -1,0 +1,193 @@
+/* pages/courseli/courseli.wxss */
+.bttop{
+  background-color: #30b767;
+  
+}
+.btt1{
+  width: 90vw;
+  margin-left: 5vw;
+  color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+  margin-top: 10px;
+  letter-spacing: 5px;
+}
+
+.bttn{
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  margin-left: 5vw;
+  padding-bottom: 6px;
+}
+.btt2{
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.btt3{
+  color: #fff;
+  font-size: 13px;
+  position: relative;
+    top: 2px;
+}
+
+/* 标题 */
+.bt{
+  margin-top: 25px;
+  width: 90vw;
+  margin-left: 5vw;
+  border-bottom: 1px solid #d3d3d3;
+  margin-bottom: 1px;
+  padding: 0 0;
+  padding-bottom: 10px;
+}
+
+.lsbt{
+  width: 6px;
+  height: 17px;
+}
+.kcbt{
+  font-size: 13px;
+  font-weight: 900;
+  color: #000;
+  letter-spacing: 1px;
+  margin-left: 5px;
+  position: relative;
+    top: -3px;
+    
+}
+
+.btts{
+  color: #aaaaaa;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 2px;
+  padding-left: 0px;
+
+}
+.bttst{
+  display: block;
+  width: 55vw;
+  overflow:hidden;
+  background-color: #30b767;
+  color: #aaaaaa;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 3px;
+  
+}
+.kcbt1{
+  display: blockl; 
+}
+
+/* 交流 */
+.cojs{
+  width: 90vw;
+  margin-left: 5vw;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d3d3d3;
+}
+.cttt{
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+}
+.cobtn{
+  margin-top: 15px;
+  line-height: 20px;
+  font-size: 12px;
+  height: 20px;
+  color: #30b767;
+  border:1px solid #30b767;
+  border-radius: 10px;
+  padding: 0 10px; 
+  margin-right: 5px;
+}
+
+/* 老师介绍 */
+.coutx{
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.texttx{
+  width: 50px;
+  height: 50px;
+  background-color: #d2d2d2;
+  border-radius: 50px;
+  box-shadow: -3px 3px 10px #d2d2d2;
+}
+.couname{
+  display: block;
+  width: 80px;
+  color: #aaaaaa;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.btts1{
+  font-size: 13px;
+  color: #aaaaaa;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.jsnr{
+  display: flex;
+  margin-top: 10px;
+}
+
+
+
+.cobt{
+  margin-bottom: 10px;
+}
+.coli{
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-radius:5px; 
+  margin-bottom: 5px;
+}
+.colo1{
+  color: #3f3f3f;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.colo2{
+  color: #30b767;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+
+.coli1{
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-radius:5px; 
+  margin-bottom: 5px;
+}
+.colo3{
+  color: #7d7a8b;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}

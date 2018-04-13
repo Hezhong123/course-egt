@@ -1,0 +1,123 @@
+/* pages/course/course.wxss */
+
+.video{
+  width: 100vw;
+}
+/* 标题  */
+.bt{
+  margin-top: 25px;
+  width: 90vw;
+  margin-left: 5vw;
+  border-bottom: 1px solid #d3d3d3;
+  margin-bottom: 1px;
+  padding: 0 0;
+  padding-bottom: 10px;
+}
+.lsbt{
+  width: 6px;
+  height: 17px;
+}
+.kcbt{
+  font-size: 13px;
+  font-weight: 900;
+  color: #000;
+  letter-spacing: 1px;
+  margin-left: 5px;
+  position: relative;
+    top: -3px;
+    
+}
+.btts{
+  color: #aaaaaa;
+  font-size: 12px;
+  letter-spacing: 3px;
+  padding-left: 10px;
+}
+
+/* 评论区 */
+.pl{
+  margin-top: 5px;
+  display: flex;
+  
+  margin-bottom: 5px;
+}
+.pluser{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+.plt{
+  margin-left: 8px;
+}
+.plt1{
+  font-size: 14px;
+  color: #b5b5b5;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.plt2{
+  font-size: 11px;
+  color: #b5b5b5;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.plt3{
+  width: 70vw;
+  padding-right: 10px;
+  font-size: 14px;
+  color: #535353;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.btt{
+  border: 1px solid #fff;
+  margin-bottom: 50px;
+}
+
+/* 输入评论 */
+.plsc{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  background: #f7f7f7;
+  padding: 8px 0;
+  position: fixed;
+    bottom: 0;
+}
+.plpla{
+  font-size: 13px;
+  color: #aaaaaa;
+  letter-spacing: 2px;
+  text-indent: 10px;
+}
+.plinput{
+  letter-spacing: 2px;
+  text-indent: 10px;
+  padding: 5px 0;
+  font-size: 13px;
+  color: #535353;
+  margin-left: 15px;
+  width: 72vw;
+  border-bottom: 1px solid #30b767; 
+}
+
+.plbtn{
+  color: #30b767;
+  font-size: 15px;
+  height: 26px;
+  line-height: 26px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-right: 15px;
+  border: 1px solid #30b767;
+  border-radius: 15px;
+  padding: 0 8px;
+  position: absolute;
+    bottom: 8px;
+    right: 0;
+}

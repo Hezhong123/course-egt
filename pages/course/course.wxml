@@ -1,0 +1,54 @@
+<!--pages/course/course.wxml-->
+<view>
+  <!-- 视频播放窗口 -->
+  <video class='video' src="{{course.vidID}}"   objectFit="fill" 
+  poster="../../img/bj1.png"
+  autoplay="{{true}}"
+   ></video>
+  <!-- 知识点 -->
+  <view class='bt'>
+    <view>
+        <image class='lsbt' mode='scaleToFill' src='../../img/ico1.png'></image>
+        <text class='kcbt'>知识点</text>
+        <view class='btts' wx:for="{{course.core}}" wx:key="course1">
+          {{index+1+course.core[index]}}
+        </view>
+      </view>
+      
+  </view>
+
+  <!-- 讨论区 -->
+  <view class='bt btt'>
+    <view>
+        <image class='lsbt' mode='scaleToFill' src='../../img/ico1.png'></image>
+        <text class='kcbt'>讨论区</text>
+    </view>
+    <view class='pl' wx:for="{{comments}}" wx:key='comments1'>
+        <view>
+          <image  mode='scaleToFill' class='pluser' mode='scaleToFill' src='{{comments[index].userimg}}'></image>
+        </view>
+        <view class='plt' >
+          <view class='plt1'>{{comments[index].username}}</view>
+          <view class='plt2'>{{timed[index]}}</view>
+          <view class='plt3'>
+              <text>{{comments[index].comments}}</text>
+          </view>
+          
+        </view>
+    </view>
+      
+  </view>
+
+  <!-- 添加评论 -->
+  <view class='plsc'>
+    <view>
+      <!-- <textarea placeholder-class="plpla" bindblur="plnr" value='{{plnr}}' class='plinput' placeholder="把困惑的记录下来吧..." /> -->
+      <input 
+      placeholder-class="plpla" bindconfirm="plnr" bindinput="plnr" value='{{plnr}}' class='plinput'
+      confirm-type="send"
+      placeholder="把困惑的记录下来吧..."  />
+    </view>  
+    <view class='plbtn' bindtap='onsublim' data-obk='{{course.id}}'>发送</view>
+  </view>
+  
+</view>

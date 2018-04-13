@@ -1,0 +1,43 @@
+<!--pages/temp/getuse.wxml-->
+<view class='getuser'>
+  <view class='suermod'>
+    <view>
+      <image class='userimg' mode='scaleToFill' src='../../../img/user.png'></image>
+    </view>
+    <view class='userbt'>
+      <image class='bt1img' mode='scaleToFill' src='../../../img/ico1.png'></image>
+      <text class='bttxt'>入学登记</text>
+    </view>
+    <!-- 信息收集 -->
+    <form bindsubmit="formSubmit" bindreset="formReset">
+      <view class="section">
+        <view class="sectiontitle">编号:</view>
+        <input disabled="true" placeholder-class='inputs' value='{{data[1].id}}' name="userid"  placeholder="{{data.id}}" />
+      </view>
+      <view class="section">
+        <view class="sectiontitle">姓名:</view>
+        <input placeholder-class='inputs' name="name" value='{{data[0].name}}' placeholder="" />
+      </view>
+      <view class="section">
+        <view class="sectiontitle">学校:</view>
+        <input placeholder-class='inputs' name="school" value='{{data[0].school}}' placeholder="" />
+      </view>
+      <view class="section">
+        <view class="sectiontitle">年级:</view>
+        <input placeholder-class='inputs' name="level" value='{{data[0].level}}' placeholder="" />
+      </view>
+      <view class="section">
+        <view class="sectiontitle" maxlength='11'  >电话:</view>
+        <input placeholder-class='inputs' name="tel" type="idcard" value='{{data[0].tel}}' placeholder="" />
+      </view>
+
+      <view class="section">
+        <view class="sectiontitle" >身份证:</view>
+        <input placeholder-class='inputs' type="idcard" name="identity" value='{{data[0].identity}}' placeholder="" />
+      </view>
+      <view class="btn-area">
+        <button class='subclass'  formType="submit">登记</button>
+      </view>
+    </form>
+  </view>
+</view>

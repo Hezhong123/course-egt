@@ -1,0 +1,59 @@
+<!--index.wxml-->
+<view>
+  <getuser data="{{[djdata,userInfo]}}"  bindmyevent="onMyEvent"  wx:if="{{djzt}}"></getuser>
+  <!-- 背景图片,个人信息 -->
+  <view>
+    <image class='homebt' mode='scaleToFill' src='../../img/bt.png'></image>
+    <view class='userd'>
+      <view>
+        <!-- 头像 -->
+        <image class='usertx' mode='scaleToFill' src="{{userInfo.avatarUrl}}" ></image>
+      </view>
+      <!-- 个人资料 -->
+      <view class='usrd'>
+          <view class='usbti'>
+            <text class='usbt'>{{userInfo.nickName}}</text>
+            <view class='usbtico' bindtap='onSub'>
+              <image class='xuexico' mode='scaleToFill' src='../../img/xuexi.png' ></image>
+              学习中
+            </view>
+          </view>
+          <text class='usnr'>{{djdata.school+djdata.level}}</text>
+          <view class='usbom'>
+              <view>
+                <text class='bubomt'>书山有路勤为径，</text>
+                <text class='bubomt'>学海无涯苦作舟。</text>
+              </view>
+              <text class='bubbtn'>课后讨论</text>
+          </view>
+      </view>
+    </view>
+    
+    <!-- 课程类目 -->
+    <view class='kc' wx:for="{{courseClass}}"  wx:key="course" data-obj="{{courseClass[index]}}" bindtap="oncourseli"> 
+      <view>
+        <image class='lsbt' mode='scaleToFill' src='../../img/ico1.png'></image>
+        <text class='kcbt'> {{courseClass[index].EnglishBt+'  '+courseClass[index].courseClass+courseClass[index].course}}</text>
+      </view>
+      <view class='kcjj'>
+        <text class='jjt1'>已更新{{courseClass[index].chapter.length}}课时</text>
+        <view class='jjt2'>开始学习</view>
+      </view>
+      <view>
+        <image class='kcimg' mode='scaleToFill' src='{{courseClass[index].imgs}}'></image>
+      </view>
+    </view>
+
+  </view>
+
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+</view>

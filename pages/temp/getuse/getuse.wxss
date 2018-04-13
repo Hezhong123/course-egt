@@ -1,0 +1,93 @@
+/* pages/temp/getuse.wxss */
+.getuser{
+  position: fixed;
+     top: 0; 
+     left: 0;
+  width: 100vw;
+  z-index: 100;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.suermod{
+    margin-top: 15vw;
+    width: 80vw;
+    /* height: 50vh; */
+    margin-left: 10vw;
+    background-color: #fff;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px; 
+}
+.userbt{
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.userimg{
+  width: 100%;
+  height: 30vw;
+}
+.bt1img{
+  width: 6px;
+  height: 17px;
+  margin-right: 8px;
+}
+.bttxt{
+  font-size: 15px;
+  line-height: 18px;
+  font-weight:900; 
+  letter-spacing: 3px;
+}
+
+/* 表单 */
+.section{
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  border-bottom:1px solid #30b767; 
+  margin-bottom: 10px;
+}
+.sectiontitle{
+  /* text-align: right; */
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-left: 5px;
+}
+.inputs{
+  width: 160px;
+  line-height: 30px;
+  font-size: 13px;
+  margin-top: -1px;
+  color: #30b767;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+input{
+  width: 160px;
+  line-height: 30px;
+  font-size: 13px;
+  margin-top: -1px;
+  color: #30b767;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.btn-area{
+  display: flex;
+  justify-content: center;
+}
+.subclass{
+  background-color: #30b767;
+  color: #fff;
+  width: 90xp;
+  height: 30px;
+  border-radius:20px;
+  line-height: 30px;
+  font-size: 16px;
+  margin: 10px 0 15px; 
+  letter-spacing: 3px;
+  font-weight: 300;
+  padding: 0 36px;
+}

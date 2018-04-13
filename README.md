@@ -2,8 +2,7 @@
 > 声明：本源码仅限于交流学习，不得商用，违者追求法律责任
 
 
-
-![课后ing](https://cloud-minapp-12742.cloud.ifanrusercontent.com/1f6xcWATyFCQYNVB.jpg)
+![课后ing](https://github.com/Hezhong123/course-egt/blob/master/img/xuexi.png)
 
 ####  已上线，扫码体验
 

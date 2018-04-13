@@ -3,11 +3,9 @@
 
 
 
-<center>
 ![课后ing](https://cloud-minapp-12742.cloud.ifanrusercontent.com/1f6xcWATyFCQYNVB.jpg)
-</center>
 
-#### <center> 已上线，扫码体验</center >
+####  已上线，扫码体验
 
 #### 数据结构
 数据服务采用云服务器[小程序专业服务器](https://cloud.minapp.com/)
